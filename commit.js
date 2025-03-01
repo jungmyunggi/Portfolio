@@ -12,7 +12,7 @@ import shell from "shelljs";
 
     const {message} = await inquirer.prompt([{
         type:"input",
-        name:"massage",
+        name:"message",
         message:"커밋 메시지를 입력하세요:",
     }])
 
