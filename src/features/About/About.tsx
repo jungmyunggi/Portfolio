@@ -1,3 +1,24 @@
-export default function About(){
-    return <p>About</p>
+export default function About() {
+  return (
+    <section className="about">
+      <h2 className="about-title">About.</h2>
+      <div className="about-content">
+        <p>
+          프론트엔드 개발자로서 <b>기초가 탄탄한 개발자</b>가 되기 위해 꾸준히 학습하고 경험을
+          쌓아가고 있습니다.
+        </p>
+        <p>
+          React의 핵심 원리를 깊이 이해하기 위해 직접 가상 DOM을 구현하고, diff 알고리즘을
+          개발해보며 상태 변화가 UI 성능에 미치는 영향을 학습한 경험이 있습니다. 단순히 기능을
+          구현하는 것에서 그치지 않고, <b>"왜 이렇게 동작하는가?"</b> 에 대한 고민을 하며 학습한
+          내용을 실제 프로젝트에 적용해보는 것을 중요하게 생각합니다.
+        </p>
+        <p>
+          사용자 경험을 고려한 효율적인 렌더링, 성능 최적화, 그리고 유지보수하기 좋은 코드 작성에
+          집중하며 성장해 나가고 있습니다. 앞으로도 깊이 있는 학습과 실전 경험을 통해
+          <b>더 나은 사용자 경험을 제공하는 프론트엔드 개발자</b>가 되기 위해 노력하겠습니다.
+        </p>
+      </div>
+    </section>
+  );
 }
