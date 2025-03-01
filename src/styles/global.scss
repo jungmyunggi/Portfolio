@@ -1,40 +1,48 @@
 // global.scss
 :root {
-    --primary-color: #4361ee;
-    --secondary-color: #3a0ca3;
-    --light-color: #f8f9fa;
-    --dark-color: #212529;
-    --accent-color: #f72585;
-    --font-xl: 4rem;
-    --font-lg: 2rem;
-    --font-md: 1rem;
-    --font-sm: 0.5rem;
-  }
-  @font-face {
-    font-family: 'Pretendard-Regular';
-    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
-    font-weight: 400;
-    font-style: normal;
+  --primary-color: #4361ee;
+  --secondary-color: #3a0ca3;
+  --light-color: #f8f9fa;
+  --dark-color: #212529;
+  --accent-red: #f72585;
+  --accent-yellow: #f8cd07;
+  --font-xl: 4rem;
+  --font-lg: 2rem;
+  --font-md: 1rem;
+  --font-sm: 0.5rem;
 }
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Pretendard-Regular', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-  }
-  
-  html {
-    scroll-behavior: smooth;
+@font-face {
+  font-family: 'Pretendard-Regular';
+  src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff')
+    format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:
+    'Pretendard-Regular',
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    Roboto,
+    'Helvetica Neue',
+    Arial,
+    sans-serif;
+}
 
-  }
-  
-  body {
-    background-color: var(--light-color);
-    color: var(--dark-color);
-    overflow-x: hidden;
-  }
-  
-  .section{
-    padding-left: 20vw;
-  }
-  
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--light-color);
+  color: var(--dark-color);
+  overflow-x: hidden;
+}
+
+.section {
+  padding-left: 20vw;
+}
