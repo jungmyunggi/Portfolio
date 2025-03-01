@@ -1,10 +1,9 @@
-
+import HomePage from "@/pages/Home/HomePage"
+import "@/styles/global.scss"
 function App() {
 
   return (
-    <>
-    프로젝트 생성 
-    </>
+    <HomePage/>
   )
 }
 
