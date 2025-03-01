@@ -29,7 +29,6 @@ import shell from "shelljs";
         process.exit(0);
       }
       const currentBranch = shell.exec("git rev-parse --abbrev-ref HEAD", { silent: true }).stdout.trim();
-      shell.exec("git add .");
       shell.exec(`git commit -m "${type}: ${message}"`);
       console.log(`✅ 커밋 완료! (${currentBranch} 브랜치)`);
 
