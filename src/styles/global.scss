@@ -1,15 +1,20 @@
 // global.scss
 :root {
+  font-size: 10px;
   --primary-color: #4361ee;
   --secondary-color: #3a0ca3;
   --light-color: #f8f9fa;
   --dark-color: #212529;
   --accent-red: #f72585;
+  --accent-gray: #adb5bd;
   --accent-yellow: #f8cd07;
-  --font-xl: 4rem;
-  --font-lg: 2rem;
-  --font-md: 1.3rem;
-  --font-sm: 0.5rem;
+  --pastel-yellow: #fffae6;
+  --pastel-green: #e3f9f0;
+  --pastel-blue: #e3f2fd;
+  --font-xl: 4.8rem;
+  --font-lg: 2.4rem;
+  --font-md: 1.6rem;
+  --font-sm: 0.8rem;
 }
 @font-face {
   font-family: 'Pretendard-Regular';
