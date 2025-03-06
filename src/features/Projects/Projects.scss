@@ -1,0 +1,48 @@
+.projects {
+  padding: 2rem 5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  .projects-title {
+    font-size: 4rem;
+    padding-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 2px solid var(--accent-red);
+  }
+  .projects-content {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    .project-item {
+      display: flex;
+      position: relative;
+      &:nth-child(odd) {
+        display: flex;
+        flex-direction: row-reverse;
+      }
+      img {
+        width: 70%;
+        border-radius: 1rem;
+      }
+      .project-info {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        &:nth-child(odd) {
+          align-items: end;
+        }
+        .project-name {
+          font-size: 2rem;
+          padding-bottom: 1rem;
+        }
+        .project-description {
+          font-size: var(--font-md);
+          padding-bottom: 1rem;
+          width: 20%;
+        }
+      }
+    }
+  }
+}
