@@ -75,3 +75,17 @@ export const PROJECT_ITEMS = [
     ],
   },
 ];
+
+export const EDUCATION_ITEMS = [
+  {
+    name: '네이버 부스트캠프',
+    date: '2024.06 ~ 2025.02',
+    summary: '네이버 부스트캠프 웹 풀스택 9기 수료',
+  },
+  { name: '영남대학교', date: '2019.03 ~ 2025.02', summary: '컴퓨터공학과 졸업' },
+];
+
+export const CERTIFICATE_ITEMS = [
+  { name: '정보처리기사', date: '2024.06', organization: '한국산업인력공단' },
+  { name: 'TOEIC Speaking(IH)', date: '2024.01', organization: '한국TOEIC위원회' },
+];
