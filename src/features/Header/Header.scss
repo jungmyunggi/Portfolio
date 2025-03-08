@@ -42,7 +42,17 @@
       background-color: transparent;
       border: none;
       position: absolute;
-      bottom: 50px;
+      bottom: 30px;
+      animation: bounce 1s infinite ease-out;
+    }
+    @keyframes bounce {
+      0%,
+      100% {
+        transform: translate(-50%, -50%);
+      }
+      50% {
+        transform: translate(-50%, -30%);
+      }
     }
   }
 }
