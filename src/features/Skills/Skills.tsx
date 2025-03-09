@@ -127,7 +127,7 @@ function SkillFront() {
         stack="Vitest"
       />
       <SkillItem
-        skill="socketio"
+        skill="socketdotio"
         description="클라이언트에서 실시간 채팅을 구현한 경험이 있습니다."
         color="#010101"
         stack="Socket.io"
