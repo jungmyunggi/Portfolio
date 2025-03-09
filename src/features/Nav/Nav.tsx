@@ -26,10 +26,14 @@ export default function Nav() {
         </div>
 
         <div className="nav-contact">
-          <div>Tistory</div>
-          <div>Github</div>
-          <div>jung.myung.gi9@gmail.com</div>
-          <div>Last Update: 2025/02</div>
+          <a href="https://tunaspace.tistory.com/" target="_blank">
+            Tistory
+          </a>
+          <a href="https://github.com/jungmyunggi" target="_blank">
+            Github
+          </a>
+          <a href="mailto:jung.myung.gi9@gmail.com">jung.myung.gi9@gmail.com</a>
+          <a>Last Update: 2025/02</a>
         </div>
       </div>
     </nav>
