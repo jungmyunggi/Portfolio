@@ -6,7 +6,7 @@ export default function ProjectImgWrapper(wrapperProps: ProjectWrapperProps) {
   return (
     <div className="project-img-wrapper">
       <img
-        src={`/assets/projects/${wrapperProps.name}.png`}
+        src={`/assets/projects/${wrapperProps.name.toLowerCase()}.png`}
         alt={wrapperProps.name}
         className="project-img"
       />
