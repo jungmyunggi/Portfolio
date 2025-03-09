@@ -18,7 +18,7 @@ export default function Nav() {
             Education.
           </div>
           <div className="nav-Award" onClick={() => scrollElement('award')}>
-            Education.
+            Award.
           </div>
           <div className="nav-certificate" onClick={() => scrollElement('certificate')}>
             Certificate.
