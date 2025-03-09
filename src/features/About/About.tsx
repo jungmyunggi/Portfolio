@@ -1,7 +1,7 @@
 import '@/features/About/About.scss';
 export default function About() {
   return (
-    <section className="about">
+    <section className="about" id="about">
       <h2 className="about-title">자기소개</h2>
       <div className="about-content">
         <div className="about-content-subtitle">

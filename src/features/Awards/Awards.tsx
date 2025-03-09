@@ -1,7 +1,7 @@
 import '@/features/Awards/Awards.scss';
 export default function Awards() {
   return (
-    <section className="award">
+    <section className="award" id="award">
       <h2 className="award-title">수상 경력</h2>
       <div className="award-content">
         <div>

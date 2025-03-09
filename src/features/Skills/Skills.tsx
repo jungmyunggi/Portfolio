@@ -12,7 +12,7 @@ export default function Skills() {
     skillListRef.current!.style.setProperty('--active-top', `${index * 25}%`);
   };
   return (
-    <section className="skills">
+    <section className="skills" id="skill">
       <h2 className="skills-title">기술 스택</h2>
       <div className="skills-content">
         <div>

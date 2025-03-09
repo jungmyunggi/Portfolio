@@ -2,7 +2,7 @@ import '@/features/Certificate/Certificate.scss';
 import { CERTIFICATE_ITEMS } from '@/share/constant/constant';
 export default function Certificate() {
   return (
-    <section className="certificate">
+    <section className="certificate" id="certificate">
       <h2 className="certificate-title">자격증</h2>
       <div className="certificate-content">
         <ul>
