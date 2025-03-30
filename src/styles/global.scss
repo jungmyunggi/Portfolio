@@ -6,7 +6,8 @@
   --secondary-color: #3a0ca3;
   --light-color: #ffffff;
   --light-gray: #d5d5d5;
-  --dark-color: #212529;
+  --dark-color: #000000;
+  --dark-gray: #212529;
   --font-base: #333333;
 
   // 강조 색상
@@ -25,8 +26,11 @@
   --font-md: 1.125rem; // 18px
   --font-base: 1rem; // 16px
   --font-sm: 0.875rem; //14px
+  --font-xs: 0.5rem;
 
   //간격
+  --spacing-3xl: 3.5rem;
+  --spacing-2xl: 3rem;
   --spacing-xl: 2.5rem;
   --spacing-lg: 2rem;
   --spacing-md: 1.5rem;
