@@ -1,20 +1,37 @@
 // global.scss
 :root {
-  font-size: 10px;
+  font-size: 16px;
+  // 기본 색상
   --primary-color: #4361ee;
   --secondary-color: #3a0ca3;
-  --light-color: #f8f9fa;
+  --light-color: #ffffff;
+  --light-gray: #d5d5d5;
   --dark-color: #212529;
+  --font-base: #333333;
+
+  // 강조 색상
   --accent-red: #f72585;
   --accent-gray: #adb5bd;
   --accent-yellow: #f8cd07;
+
+  // 연한 색상
   --pastel-yellow: #fffae6;
   --pastel-green: #e3f9f0;
   --pastel-blue: #e3f2fd;
-  --font-xl: 4.8rem;
-  --font-lg: 2.4rem;
-  --font-md: 1.6rem;
-  --font-sm: 0.8rem;
+
+  // 폰트사이즈
+  --font-xl: 1.5rem; // 24px
+  --font-lg: 1.25rem; // 20px
+  --font-md: 1.125rem; // 18px
+  --font-base: 1rem; // 16px
+  --font-sm: 0.875rem; //14px
+
+  //간격
+  --spacing-xl: 2.5rem;
+  --spacing-lg: 2rem;
+  --spacing-md: 1.5rem;
+  --spacing-base: 1rem;
+  --spacing-sm: 0.5rem;
 }
 @font-face {
   font-family: 'Pretendard-Regular';
@@ -36,20 +53,25 @@
     'Helvetica Neue',
     Arial,
     sans-serif;
+  color: var(--font-base);
 }
 
 html {
   scroll-behavior: smooth;
 }
-
 body {
-  background-color: var(--light-color);
-  color: var(--dark-color);
   overflow-x: hidden;
+  max-width: 100vw;
 }
+section {
+  margin-top: 15vh;
+  min-height: 85vh;
+}
+
 button {
   cursor: pointer;
 }
-.section {
-  padding-left: 20vw;
+
+a {
+  text-decoration: none;
 }
