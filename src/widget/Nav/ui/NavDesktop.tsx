@@ -1,15 +1,14 @@
 import { Link } from 'react-router-dom';
-import { ReactSVG } from 'react-svg';
-import '@/features/Nav/Nav.scss';
-
+import SVGIcon from '@/share/ui/SVGIcon';
 export default function NavDesktop() {
   return (
     <nav className="navigation-desktop">
-      <ReactSVG
+      <SVGIcon
         src="/assets/logo.svg"
-        beforeInjection={(svg) => {
-          svg.setAttribute('style', 'width:150px; height:150px');
-        }}
+        height="150px"
+        width="150px"
+        shape={'square'}
+        fill="#000000"
       />
       <ul className="items">
         <li className="item">

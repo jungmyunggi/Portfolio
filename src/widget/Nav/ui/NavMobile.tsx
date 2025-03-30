@@ -1,10 +1,10 @@
-import '@/features/Nav/Nav.scss';
 import { Menu } from 'lucide-react';
 import { X } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { ReactSVG } from 'react-svg';
 import { useState } from 'react';
 import { SliderType } from '@/share/type/NavType';
+import SVGIcon from '@/share/ui/SVGIcon';
 export default function NavMobile() {
   const [isOpen, setIsopen] = useState<boolean>(false);
   const openHandler = () => {
@@ -13,11 +13,12 @@ export default function NavMobile() {
   return (
     <nav>
       <div className="navigation-mobile">
-        <ReactSVG
+        <SVGIcon
           src="/assets/logo.svg"
-          beforeInjection={(svg) => {
-            svg.setAttribute('style', 'width:20vw; height:15vh');
-          }}
+          height="15vh"
+          width="20vw"
+          shape={'square'}
+          fill="#000000"
         />
         <div className="menubox">
           {isOpen ? (
