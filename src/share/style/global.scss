@@ -21,14 +21,18 @@
   --pastel-blue: #e3f2fd;
 
   // 폰트사이즈
+  --font-4xl: 3rem;
+  --font-3xl: 2rem;
+  --font-2xl: 1.7rem;
   --font-xl: 1.5rem; // 24px
   --font-lg: 1.25rem; // 20px
   --font-md: 1.125rem; // 18px
   --font-base: 1rem; // 16px
   --font-sm: 0.875rem; //14px
-  --font-xs: 0.5rem;
+  --font-xs: 0.6rem;
 
   //간격
+  --spacing-full: 999rem;
   --spacing-3xl: 3.5rem;
   --spacing-2xl: 3rem;
   --spacing-xl: 2.5rem;
@@ -36,10 +40,10 @@
   --spacing-md: 1.5rem;
   --spacing-base: 1rem;
   --spacing-sm: 0.5rem;
+  --spacing-xs: 0.2rem;
 }
 .dark {
   --light-color: #1e1e1e;
-  --light-gray: #2a2a2a;
   --dark-color: #ffffff;
   --dark-gray: #cccccc;
   --font-base: #f0f0f0;
@@ -79,6 +83,8 @@ body {
 section {
   margin-top: 15vh;
   min-height: 85vh;
+  padding-top: var(--spacing-3xl);
+  padding-bottom: var(--spacing-3xl);
 }
 
 button {
@@ -87,4 +93,13 @@ button {
 
 a {
   text-decoration: none;
+}
+h1 {
+  font-size: var(--font-4xl);
+}
+h2 {
+  font-size: var(--font-3xl);
+}
+h3 {
+  font-size: var(--font-2xl);
 }

@@ -4,7 +4,6 @@ import DarkModeToggle from '@/features/DarkModeToggle/ui/DarkModeToggle';
 import { useDarkStore } from '@/features/DarkModeToggle/model/DarkStore';
 export default function NavDesktop() {
   const isDark = useDarkStore((state) => state.isDark);
-  console.log(isDark);
   return (
     <nav className="navigation-desktop">
       <SVGIcon
