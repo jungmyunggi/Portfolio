@@ -1,6 +1,10 @@
 import { Link } from 'react-router-dom';
 import SVGIcon from '@/share/ui/SVGIcon';
+import DarkModeToggle from '@/features/DarkModeToggle/ui/DarkModeToggle';
+import { useDarkStore } from '@/features/DarkModeToggle/model/DarkStore';
 export default function NavDesktop() {
+  const isDark = useDarkStore((state) => state.isDark);
+  console.log(isDark);
   return (
     <nav className="navigation-desktop">
       <SVGIcon
@@ -8,7 +12,7 @@ export default function NavDesktop() {
         height="150px"
         width="150px"
         shape={'square'}
-        fill="#000000"
+        fill={isDark === 'Dark' ? '#ffffff' : '#000000'}
       />
       <ul className="items">
         <li className="item">
@@ -26,6 +30,7 @@ export default function NavDesktop() {
         <li className="item">
           <Link to={'/education'}>교육</Link>
         </li>
+        <DarkModeToggle />
       </ul>
     </nav>
   );

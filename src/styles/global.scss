@@ -37,6 +37,14 @@
   --spacing-base: 1rem;
   --spacing-sm: 0.5rem;
 }
+.dark {
+  --light-color: #1e1e1e;
+  --light-gray: #2a2a2a;
+  --dark-color: #ffffff;
+  --dark-gray: #cccccc;
+  --font-base: #f0f0f0;
+  --accent-gray: #555555;
+}
 @font-face {
   font-family: 'Pretendard-Regular';
   src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff')
@@ -64,6 +72,7 @@ html {
   scroll-behavior: smooth;
 }
 body {
+  background-color: var(--light-color);
   overflow-x: hidden;
   max-width: 100vw;
 }

@@ -1,12 +1,14 @@
 import { Menu } from 'lucide-react';
 import { X } from 'lucide-react';
 import { Link } from 'react-router-dom';
-import { ReactSVG } from 'react-svg';
 import { useState } from 'react';
 import { SliderType } from '@/share/type/NavType';
 import SVGIcon from '@/share/ui/SVGIcon';
+import { useDarkStore } from '@/features/DarkModeToggle/model/DarkStore';
+import DarkModeToggle from '@/features/DarkModeToggle/ui/DarkModeToggle';
 export default function NavMobile() {
   const [isOpen, setIsopen] = useState<boolean>(false);
+  const isDark = useDarkStore((state) => state.isDark);
   const openHandler = () => {
     setIsopen(!isOpen);
   };
@@ -18,9 +20,12 @@ export default function NavMobile() {
           height="15vh"
           width="20vw"
           shape={'square'}
-          fill="#000000"
+          fill={isDark === 'Dark' ? '#ffffff' : '#000000'}
         />
+
         <div className="menubox">
+          <DarkModeToggle />
+
           {isOpen ? (
             <X size={35} className="menu-button" onClick={openHandler} />
           ) : (

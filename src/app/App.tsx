@@ -4,7 +4,6 @@ import ProjectPage from '@/pages/ProjectPage';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import '@/styles/global.scss';
 import MediaQueryUpdater from '@/app/MediaQueryUpdater';
-import Nav from '@/features/Nav/ui/Nav';
 import Layout from './Layout';
 function App() {
   return (
