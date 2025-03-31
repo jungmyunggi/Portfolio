@@ -1,0 +1,15 @@
+.horizon {
+  display: flex;
+  align-items: center;
+  .line {
+    display: block;
+    background-color: var(--dark-color);
+    height: 3px;
+    width: 100%;
+  }
+  .title {
+    padding-left: var(--spacing-3xl);
+    padding-right: var(--spacing-3xl);
+    font-size: var(--font-2xl);
+  }
+}
