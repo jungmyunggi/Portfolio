@@ -1,0 +1,11 @@
+@import url('@/share/style/global.scss');
+.scrollBar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10000;
+    height: 5px;
+    background: linear-gradient(to right, var(--scroll-from-color), var(--scroll-to-color));
+    width: 0%;
+    transition: width 0.2 ease-out;
+}

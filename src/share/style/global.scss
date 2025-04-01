@@ -2,8 +2,8 @@
 :root {
     font-size: 16px;
     // 기본 색상
-    --primary-color: #4361ee;
-    --secondary-color: #3a0ca3;
+    --scroll-from-color: #ffffff;
+    --scroll-to-color: #0000009d;
     --light-color: #ffffff;
     --light-gray: #d5d5d5;
     --dark-color: #000000;
@@ -44,6 +44,8 @@
     --spacing-xs: 0.2rem;
 }
 .dark {
+    --scroll-from-color: #0000009d;
+    --scroll-to-color: #ffffff;
     --light-color: #1e1e1e;
     --dark-color: #ffffff;
     --dark-gray: #cccccc;
@@ -71,6 +73,9 @@
         Arial,
         sans-serif;
     color: var(--font-base);
+    ::-webkit-scrollbar {
+        width: 0;
+    }
 }
 
 html {
