@@ -13,6 +13,14 @@
     box-shadow: inset 0px -3px 2px var(--light-gray);
     background-color: var(--light-color);
     z-index: 100;
+    span {
+        position: relative;
+        .logo-link {
+            position: absolute;
+            height: 100%;
+            width: 100%;
+        }
+    }
     .items {
         list-style: none;
         display: flex;
