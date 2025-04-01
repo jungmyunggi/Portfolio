@@ -1,0 +1,56 @@
+.certificates {
+    margin-top: 0;
+    padding-top: 0;
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-md);
+    .certification-container {
+        box-shadow: 2px 2px 20px var(--light-gray);
+        border-radius: var(--spacing-sm);
+        padding: var(--spacing-md);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: var(--spacing-sm);
+        div {
+            max-width: 50vw;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            .name {
+                font-size: var(--font-2xl);
+            }
+            .issuer {
+                font-size: var(--font-lg);
+                text-align: end;
+            }
+        }
+        .date {
+            max-width: 50vw;
+            width: 100%;
+            color: var(--light-gray);
+        }
+    }
+}
+
+.certificates-mobile {
+    .certification-container {
+        div {
+            .name {
+                font-size: var(--font-sm);
+            }
+            .issuer {
+                font-size: var(--font-xs);
+                text-align: end;
+            }
+        }
+        .date {
+            max-width: 50vw;
+            width: 100%;
+            color: var(--light-gray);
+            font-size: var(--font-xs);
+        }
+    }
+}
