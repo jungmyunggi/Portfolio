@@ -1,5 +1,5 @@
 import { create } from 'zustand';
-import { DarkStore } from '@/features/DarkModeToggle/model/darkStoreType';
+import { DarkStore } from '@/features/DarkModeToggle/model/DarkStoreType';
 export const useDarkStore = create<DarkStore>((set) => ({
   isDark: 'Light',
   setIsDark: (mode: 'Dark' | 'Light') => {
