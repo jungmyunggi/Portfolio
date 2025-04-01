@@ -6,7 +6,7 @@ export default function IntroPage() {
     return (
         <>
             <Introdution />
-            <Horizon interval={20} title="SKILLS" />
+            <Horizon intervalTop={5} intervalBottom={5} title="SKILLS" />
             <Skills />
         </>
     );
