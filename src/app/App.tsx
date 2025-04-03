@@ -1,6 +1,6 @@
 import HomePage from '@/pages/Home/HomePage';
 import IntroPage from '@/pages/Intro/IntroPage';
-import ProjectPage from '@/pages/ProjectPage';
+import ProjectPage from '@/pages/Project/ProjectPage';
 import AwardAndCertificationPage from '@/pages/AwardAndCertification/AwardAndCerticicationPage';
 import EducationPage from '@/pages/Education/EducationPage';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';

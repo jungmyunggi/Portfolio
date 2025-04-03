@@ -1,0 +1,57 @@
+export const WEB_ITEMS = [
+    {
+        src: 'Denamu.png',
+        title: '개발자의 블로그 허브 - Denamu',
+        subtitle: '기술 블로그 큐레이션 플랫폼',
+        period: '[2024.11 ~ 현재 서비스 운영중]',
+        stack: ' Typescript, React, TanstackQuery, React-Router-dom, Zustand, TailwindCSS, Shadcn, Socket.io, axios, vite',
+        teamComposition: '프론트엔드 2명 백엔드 3명으로 이루어진 팀으로 개발했습니다.',
+        myRole: '저는 프론트엔드 개발을 맡아 진행했고, shadcn을 이용한 공통 디자인 개발, mockAPI를 이용한 초기 기능 테스트, socket.io를 이용한 채팅기능, 관리자 페이지,통계 페이지, 반응형 웹 구현, 프로젝트 리팩토링 (정적 코드분석, 성능 최적화, SEO 최적화) 등의 업무를 맡았습니다.',
+        gitLink: 'https://github.com/jungmyunggi/web05-Denamu',
+        notionLink:
+            'https://balsam-barometer-716.notion.site/9-Web05-12de624056ec805aa368dcf042f4bea7',
+        serviceLink: 'https://denamu.site',
+    },
+    {
+        src: 'CNS.png',
+        title: 'CNS',
+        subtitle: '프로젝트 관리, 협업, 메신저 서비스를 모두 제공하는 All-in-One 서비스',
+        period: '[2024.04 ~ 2024.10]',
+        stack: ' Javascript, React, TanstackQuery, React-Router-dom, Zustand, SCSS, Socket.io, axios, vite',
+        teamComposition: '프론트엔드 2명 백엔드 2명 기획 1명으로 이루어진 팀으로 개발했습니다.',
+        myRole: '저는 프론트엔드 개발을 맡아 진행했고, socket.io를 이용한 채팅기능, JWT기반 로그인, 반응형 웹 구현, 프로젝트 컴포넌트 구현, 간트차트 페이지 구현 등의 업무를 맡았습니다.',
+        gitLink: 'https://github.com/jungmyunggi/CNS-frontend',
+    },
+    {
+        src: 'Portfolio.png',
+        title: '정명기 포트폴리오',
+        subtitle: '현재 보고있는 서비스',
+        period: '[2025.02 ~ 현재 서비스 운영중]',
+        stack: ' Typescript, React, React-Router-dom, Zustand, SCSS, vite',
+        teamComposition: '개인프로젝트로 진행했습니다.',
+        myRole: '',
+        gitLink: 'https://github.com/jungmyunggi/web05-Denamu',
+        serviceLink: 'https://denamu.site',
+    },
+];
+export const APP_ITEMS = [
+    {
+        src: 'MeetMate.png',
+        title: 'MeetMate',
+        subtitle: '관심사 기반 오프라인 모임 추천 플랫폼',
+        period: '[2023.10 ~ 2023.12]',
+        stack: 'Flutter, Dio',
+        teamComposition: '기획 1명, 앱 개발1명, 서버 개발 1명으로 이루어진 팀으로 개발했습니다.',
+        myRole: '저는 앱 개발을 맡아 진행했고, 클래스 다이어그램 설계, Dio를 이용한 통신, 로그인 및 회원가입, 관리자 화면, 글 작성 및 열람 기능, 댓글 기능, 모임 초대장 전송 기능, 모임 정보 확인 캘린더 기능 등의 업무를 맡았습니다.',
+        gitLink: 'https://github.com/jungmyunggi/2023_SE_MeetMate',
+    },
+    {
+        src: 'Lotto.png',
+        title: '로또 번호 생성기',
+        subtitle: '로또 1등 번호를 알려주는 서비스',
+        period: '[2022.01 ~ 2022.01]',
+        stack: 'Flutter',
+        teamComposition: '개인프로젝트로 진행했습니다.',
+        myRole: 'Flutter를 처음 학습하며 진행한 프로젝트로, 상태 관리, UI 구성, 랜덤 번호 생성 로직 등을 직접 구현하며 모바일 개발의 전반적인 흐름을 익혔습니다.',
+    },
+];
