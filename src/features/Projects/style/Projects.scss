@@ -1,0 +1,100 @@
+@import url('@/share/style/global.scss');
+.projects {
+    margin-top: 0;
+    padding: 0;
+    min-height: 60vh;
+    height: 100%;
+    padding-bottom: var(--spacing-3xl);
+    &.projects-mobile {
+        .embla-mobile {
+            max-height: 35vh;
+        }
+        .project-item-container {
+            gap: var(--spacing-md);
+            padding: 0 15%;
+            img {
+                width: 80%;
+            }
+
+            .text-link-wapper {
+                gap: var(--spacing-sm);
+                .text-container {
+                    gap: var(--spacing-sm);
+                    .title {
+                        font-size: var(--spacing-base);
+                    }
+
+                    .text {
+                        font-size: var(--spacing-sm);
+                    }
+                }
+                a {
+                    font-size: var(--spacing-sm);
+                    padding: var(--spacing-xs);
+                }
+            }
+        }
+        .embla__next__button {
+            right: 0;
+            width: 20px;
+            -webkit-tap-highlight-color: transparent;
+        }
+        .embla__prev__button {
+            left: 0;
+            width: 20px;
+            -webkit-tap-highlight-color: transparent;
+        }
+    }
+    .text-link-wapper {
+        display: flex;
+        flex-direction: column;
+        gap: var(--spacing-md);
+    }
+    .project-item-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        place-items: center;
+        width: 100%;
+        padding: 0 10%;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-use-select: none;
+        user-select: none;
+        img {
+            width: 30vw;
+            border-radius: var(--spacing-md);
+            box-shadow: 2px 2px 20px var(--light-gray);
+        }
+        .text-container {
+            display: flex;
+            flex-direction: column;
+            gap: var(--spacing-md);
+            div {
+                display: flex;
+                flex-direction: column;
+                .title {
+                    font-size: var(--font-2xl);
+                    font-weight: bold;
+                }
+            }
+        }
+        .link-container {
+            display: flex;
+            gap: var(--spacing-sm);
+            align-items: center;
+            justify-content: end;
+            a {
+                cursor: pointer;
+                font-size: var(--font-sm);
+                padding: var(--spacing-sm);
+                background-color: var(--dark-gray);
+                color: var(--light-gray);
+                border-radius: var(--spacing-sm);
+                &:hover {
+                    background-color: var(--dark-color);
+                    color: var(--light-color);
+                }
+            }
+        }
+    }
+}

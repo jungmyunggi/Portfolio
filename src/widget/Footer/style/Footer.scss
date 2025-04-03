@@ -1,0 +1,51 @@
+@import url('@/share/style/global.scss');
+.footer-desktop {
+    padding: var(--spacing-lg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #000000;
+    max-height: 15rem;
+    height: 100vh;
+    color: var(--light-color);
+    font-size: var(--font-sm);
+    .name {
+        text-decoration: underline;
+    }
+    .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        place-items: center;
+        .second {
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            gap: var(--spacing-md);
+            font-size: var(--font-md);
+            font-weight: bold;
+            padding-bottom: var(--spacing-lg);
+            .icons {
+                display: flex;
+                gap: var(--spacing-md);
+            }
+        }
+    }
+}
+
+.footer-mobile {
+    padding: var(--spacing-lg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #000000;
+    max-height: 8rem;
+    height: 100vh;
+    color: var(--light-color);
+    font-size: var(--font-xs);
+    .icons {
+        display: flex;
+        gap: var(--spacing-md);
+    }
+}
