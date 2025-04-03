@@ -59,11 +59,12 @@ export const FRONT_END = [
         proficiency: 5,
         description: '시각적으로 깔끔한 UI컴포넌트를 간편하게 적용할 수 있습니다.',
     },
-    // {
-    //     stack: 'zustand',
-    //     color:'#000000',
-    //     description: '간단하고 직관적인 API로 글로벌 상태 관리를 편리하게 구현할 수 있습니다.',
-    // },
+    {
+        stack: 'Zustand',
+        color: '#000000',
+        proficiency: 4,
+        description: '간단하고 직관적인 API로 글로벌 상태 관리를 편리하게 구현할 수 있습니다.',
+    },
     {
         stack: 'React-Testing-Library',
         color: '#E33332',
@@ -143,5 +144,13 @@ export const TOOLS = [
         color: '#000000',
         description: '서버리스 기능을 활용하여 프로젝트를 빠르게 배포해본 경험이 있습니다',
         proficiency: 4,
+    },
+];
+export const MOBILE = [
+    {
+        stack: 'Flutter',
+        color: '#02569B',
+        description: '크로스 플랫폼을 이용하여 앱을 개발해본 경험이 있습니다',
+        proficiency: 3,
     },
 ];

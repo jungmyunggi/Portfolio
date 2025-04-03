@@ -16,13 +16,21 @@ export default function SkillDescription({ stack }: SkillDescriptionType) {
             {stack && (
                 <div className="describe-container">
                     <div className="current-stack">
-                        <SVGIcon
-                            src={`/assets/skills/${stack.stack}.svg`}
-                            fill={stack.color}
-                            height="200px"
-                            width="200px"
-                            shape={'square'}
-                        />
+                        {stack.stack === 'Zustand' ? (
+                            <img
+                                src="/assets/skills/zustand.jpg"
+                                alt="zustand"
+                                className="zustand-img"
+                            />
+                        ) : (
+                            <SVGIcon
+                                src={`/assets/skills/${stack.stack}.svg`}
+                                fill={stack.color}
+                                height="200px"
+                                width="200px"
+                                shape={'square'}
+                            />
+                        )}
                     </div>
                     <div className="current-describe">
                         <span className="stack">{stack.stack}</span>
