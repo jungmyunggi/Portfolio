@@ -30,6 +30,13 @@ export const FRONT_END = [
         description: 'React를 활용하여 컴포넌트 기반의 웹 애플리케이션을 개발할 수 있습니다.',
     },
     {
+        stack: 'Next.js',
+        color: '#000000',
+        proficiency: 3,
+        description: 'NextJs를 이용하여 개인프로젝트를 진행해본 경험이 있습니다.',
+    },
+
+    {
         stack: 'ReactRouter',
         color: '#CA4245',
         proficiency: 4,
