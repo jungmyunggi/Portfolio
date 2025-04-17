@@ -23,6 +23,17 @@ export const WEB_ITEMS = [
         gitLink: 'https://github.com/jungmyunggi/CNS-frontend',
     },
     {
+        src: 'Todolist.png',
+        title: 'NEXT-Todolist',
+        subtitle: 'Nextjs를 이용해 만든 간단한 투두리스트 서비스',
+        period: '[2025.03 ~ 2025.03]',
+        stack: ' Typescript, Next.js, Neon PostgresSQL, DrizzleORM, TailwindCSS, Vercel',
+        teamComposition: '개인프로젝트로 진행했습니다.',
+        myRole: 'Next를 이용하여 처음으로 만들어본 서비스입니다. 데이터베이스 구축, JWT로그인 구현, Server Action 구현, 컴포넌트 구현, 디자인 등등 작업하였습니다',
+        gitLink: 'https://github.com/jungmyunggi/todolist',
+        serviceLink: 'https://todolist-mu-six-12.vercel.app/',
+    },
+    {
         src: 'Portfolio.png',
         title: '정명기 포트폴리오',
         subtitle: '현재 보고있는 서비스',
@@ -30,8 +41,8 @@ export const WEB_ITEMS = [
         stack: ' Typescript, React, React-Router-dom, Zustand, SCSS, vite',
         teamComposition: '개인프로젝트로 진행했습니다.',
         myRole: '',
-        gitLink: 'https://github.com/jungmyunggi/web05-Denamu',
-        serviceLink: 'https://denamu.site',
+        gitLink: 'https://github.com/jungmyunggi/Portfolio',
+        serviceLink: 'https://jungmyunggi.vercel.app/',
     },
 ];
 export const APP_ITEMS = [
